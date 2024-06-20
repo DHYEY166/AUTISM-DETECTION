@@ -60,7 +60,6 @@ if os.path.exists(absolute_model_weights_path):
     ])
     
     model.compile(loss='binary_crossentropy', optimizer=Adam(), metrics=['accuracy'])
-    st.success("Model loaded and compiled successfully.")
 else:
     st.error(f"Model weights not found: {absolute_model_weights_path}")
 
