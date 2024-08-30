@@ -41,7 +41,7 @@ To run this application locally, follow these steps:
 
 6. Run the Streamlit application:
 
-   streamlit run vgg19_streamlit_app.py
+   streamlit run autism.py
 
 ## Usage
 
